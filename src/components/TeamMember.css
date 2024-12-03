@@ -1,0 +1,26 @@
+.team-member {
+  margin-top: 4rem;
+}
+
+.team-member h2 {
+  text-align: center;
+  width: 1000px;
+}
+
+.team-member__list {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.team-member.light {
+  background-color: #fff;
+}
+
+.team-member.dark {
+  background-color: #333;
+}
+
+.team-member.dark h2 {
+  color: white;
+}

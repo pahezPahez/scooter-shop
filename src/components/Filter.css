@@ -1,0 +1,14 @@
+.filter {
+  margin: 1rem;
+}
+
+.filter select {
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #000000;
+}

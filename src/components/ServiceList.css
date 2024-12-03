@@ -1,0 +1,44 @@
+.service-list {
+    margin-top: 5rem;
+  }
+  
+  .service-list h2 {
+    text-align: center;
+    width: 965px;
+    margin-bottom: 2rem;
+  }
+  
+  .service-list__list {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem 0;
+    max-width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+    cursor: grab;
+    scroll-behavior: smooth;
+  }
+  
+  .service-list__list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  hr {
+    background-color: black;
+    height: 3px;
+    width: 1290px;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  
+  .service-list.light {
+    background-color: #fff;
+  }
+  
+  .service-list.dark {
+    background-color: #333;
+  }
+  
+  .service-list.dark h2 {
+    color: white;
+  }

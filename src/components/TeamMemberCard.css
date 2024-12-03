@@ -1,0 +1,30 @@
+.team-member-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 1rem;
+  text-align: center;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member-card h3 {
+  margin-bottom: 1rem;
+}
+
+.team-member-card img {
+  height: 280px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.team-member-card.light {
+  background-color: white;
+}
+
+.team-member-card.dark {
+  background-color: #444;
+  color: white;
+}
